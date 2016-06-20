@@ -1,13 +1,12 @@
 {
     "manifest_version": 2,
 
-    "name": "BlackGag",
+    "name": "Black9atGag",
     "description": "Night mode for 9gag.com",
     "version": "1.0",
     "content_scripts": [
         {
             "matches": ["http://9gag.com/*"],
-            "css": ["style.css"],
             "run_at": "document_end",
             "js": ["jquery.js", "code.js"]
         }
